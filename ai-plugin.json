@@ -1,0 +1,22 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Polygon Options",
+  "name_for_model": "polygon_options",
+  "description_for_human": "Fetch real-time option chains & quotes from Polygon.io",
+  "description_for_model": "Plugin for querying Polygon.io options endpoints",
+  "auth": {
+    "type": "api_key",
+    "in": "header",
+    "name": "Authorization"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://<YOUR_USERNAME>.github.io/polygon-option-GPT-plugin/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://<YOUR_USERNAME>.github.io/polygon-option-GPT-plugin/logo.png",
+  "contact_email": "you@yourdomain.com",
+  "legal_info_url": "https://yourdomain.com/legal"
+}
+
+“Add ai-plugin.json”
